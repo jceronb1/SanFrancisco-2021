@@ -11,8 +11,17 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
         android:gravity="center"
-        android:text="BPM"
+        android:text="Tu pulso es"
         android:textColor="@color/white"
-        android:textSize="42sp" />
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/text_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Trucker control de pulso"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
 
 </androidx.wear.widget.BoxInsetLayout>
